@@ -9,7 +9,7 @@ class Area{
     }
 
     double calculateArea(double height, double length, double width){
-        return 2 * ( height*length + length*width + width*height );
+        return length * width * height ;
     }
 
 }
